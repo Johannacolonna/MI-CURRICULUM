@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+    <link rel="icon" type="image/x-icon" href="maletin - Acceso directo.lnk">
+</head>
+<body>
+    <ul>
+      <li><a href="./index2.html">volver</a></li>
+    </ul>
+<p><b><ins>COMPLETAR:</ins></b></p>
+    <form>
+  <label for="fname">NOMBRE:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="nombre"> <br><br>
+  <label for="lname">APELLIDO:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="apellido"> <br><br>
+    </form>
+<br>
+<p><ins><b>ELEGIR:</b></ins></p>
+<form>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+  </form>
+  <br>
+  <p><ins><b>MEDIO DE TRANSPORTE:</b></ins></p>
+  <form action="/action_page.php" target="_blank">
+    <input type="checkbox"id="vehiculo1" name="vehiculo1" value="bicicleta">
+    <label for="vehiculo1"> Tengo una bicicleta</label><br>
+    <input type="checkbox" id="vehiculo2" name="vehiculo2" value="Auto">
+    <label for="vehiculo2"> Tengo un auto</label><br>
+    <input type="checkbox" id="vehiculo3" name="vehiculo3" value="Barco">
+    <label for="vehiculo3"> Tengo un barco</label>
+  <br>
+  <br>
+  <form action="/action_page.php">
+    <label for="autos">Elige un auto:</label>
+    <select id="autos" name="autos">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select><br>
+    <input type="submit">
+  </form>
+  <br>
+  <form action="/action_page.php">
+    <textarea name="message" rows="10" cols="40">Complete su relato aqui.</textarea>
+    <br><br>
+    <input type="submit">
+  </form>
+  <form> <p><ins><b>Completar</b></ins></p>
+    <label for="username">usuario:</label>
+    <br>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="pwd">contraseña:</label>
+    <br>
+    <input type="password" id="pwd" name="pwd">
+    </form>
+  <br>
+  <br>
+  <form action="/action_page.php">
+    <label for="myfile">Seleccionar un archivo:</label>
+    <input button type="file" id="myfile" name="myfile"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <input type="submit" value="ENVIAR">
+  </form>
